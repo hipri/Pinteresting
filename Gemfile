@@ -16,6 +16,8 @@ gem 'sassc', '~> 2.2', '>= 2.2.1'
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'jquery-rails'
 gem 'devise', '~> 4.7', '>= 4.7.3'
+gem 'paperclip', '~> 6.1'
+gem 'aws-sdk', '~> 3.0', '>= 3.0.1'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
